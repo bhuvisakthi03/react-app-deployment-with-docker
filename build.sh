@@ -8,6 +8,7 @@ docker stop react
 docker rm react
 
 #building a image:
+export DOCKER_BUILDKIT=1
 docker build -t react-ci/cd .
 
 #running a container from the created image:
