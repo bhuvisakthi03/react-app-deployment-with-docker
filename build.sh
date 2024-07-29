@@ -3,9 +3,7 @@
 #login into DockerHub:
 docker login -u $DOCKER_USERNAME -p $DOCKER_PASS
 
-#stopping existing container:
-docker stop react
-docker rm react
+
 
 #building a image:
 export DOCKER_BUILDKIT=1
